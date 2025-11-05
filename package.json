@@ -1,0 +1,27 @@
+{
+  "name": "orderly-smart-food-recommender",
+  "version": "1.0.0",
+  "description": "AI-powered food delivery analytics platform",
+  "main": "run_project.py",
+  "scripts": {
+    "start": "python3 run_project.py",
+    "dev": "./start.sh",
+    "backend": "cd backend && python3 app.py",
+    "frontend": "cd frontend && npm start",
+    "install-all": "cd backend && pip3 install -r requirements.txt && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "ai",
+    "machine-learning",
+    "food-delivery",
+    "analytics",
+    "restaurant",
+    "prediction"
+  ],
+  "author": "Orderly Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/orderly-smart-food-recommender"
+  }
+}
