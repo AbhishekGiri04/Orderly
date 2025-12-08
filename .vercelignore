@@ -1,0 +1,9 @@
+backend/
+notebooks/
+docs/
+node_modules/
+*.log
+.env
+.DS_Store
+__pycache__/
+*.pyc

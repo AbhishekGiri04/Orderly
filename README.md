@@ -103,6 +103,9 @@ Orderly is a full-stack web application built to:
 ```
 Orderly – Smart Food Recommender/
 ├── 📂 frontend/                    # 🎨 React frontend application
+│   ├── 📂 public/
+│   │   ├── 📄 index.html           # 🌐 HTML entry point
+│   │   └── 📄 _redirects           # 🔄 SPA routing redirects
 │   ├── 📂 src/
 │   │   ├── 📂 components/          # 🧩 Reusable UI components
 │   │   │   ├── 📄 CustomerForm.js  # 👤 User profile form
@@ -116,19 +119,40 @@ Orderly – Smart Food Recommender/
 │   │   │   ├── 📄 Recommendations.jsx # 🎯 Food recommendations
 │   │   │   ├── 📄 Profile.jsx      # 👤 User profile management
 │   │   │   └── 📄 About.jsx        # ℹ️ Platform information
-│   │   └── 📂 services/            # 🔄 API integration
-│   │       └── 📄 api.js           # 🌐 Backend API calls
+│   │   ├── 📂 services/            # 🔄 API integration
+│   │   │   └── 📄 api.js           # 🌐 Backend API calls
+│   │   ├── 📄 App.js               # ⚛️ Main React component
+│   │   ├── 📄 index.js             # 🚀 React entry point
+│   │   └── 📄 index.css            # 🎨 Global styles
+│   ├── 📄 package.json             # 📦 Frontend dependencies
+│   ├── 📄 tailwind.config.js       # 🎨 Tailwind configuration
+│   ├── 📄 vercel.json              # ⚙️ Vercel deployment config
+│   └── 📄 .env                     # 🔐 Environment variables
 ├── 📂 backend/                     # 🔧 Flask backend service
-│   ├── 📄 app.py                   # 🚀 Flask application server
 │   ├── 📂 data/                    # 📊 ML model and dataset
 │   │   ├── 📄 dataset.csv          # 📈 Training data (500+ orders)
 │   │   └── 📄 food_delivery_model.pkl # 🤖 Trained ML model
-│   └── 📂 utils/                   # 🛠️ Utility functions
-│       └── 📄 preprocess.py        # 🔄 Data preprocessing
+│   ├── 📂 models/                  # 🤖 ML models directory
+│   │   └── 📄 food_delivery_model.pkl # 🧠 Trained classifier
+│   ├── 📂 utils/                   # 🛠️ Utility functions
+│   │   └── 📄 preprocess.py        # 🔄 Data preprocessing
+│   ├── 📄 app.py                   # 🚀 Flask application server
+│   └── 📄 requirements.txt         # 📦 Python dependencies
+├── 📂 docs/                        # 📸 Documentation assets
+│   ├── 📄 Loading_Page.png
+│   ├── 📄 Home_Page.png
+│   ├── 📄 Dashboard.png
+│   ├── 📄 Prediction_Page.png
+│   ├── 📄 Recommandations_Page.png
+│   ├── 📄 Profile_Page.png
+│   ├── 📄 About_Page.png
+│   └── 📄 Help_And_Support.png
 ├── 📂 notebooks/                   # 📓 ML development
 │   └── 📄 model_training.ipynb     # 🧪 Model training notebook
-├── 📄 run_project.py               # 🚀 Main project launcher
-├── 📄 start.sh                     # 🔧 Bash startup script
+├── 📄 vercel.json                  # 🚀 Vercel root configuration
+├── 📄 .vercelignore                # 🚫 Vercel ignore file
+├── 📄 .gitignore                   # 🚫 Git ignore file
+├── 📄 run.sh                       # 🔧 Bash startup script
 ├── 📄 package.json                 # 📦 Root configuration
 └── 📄 README.md                    # 📖 Project documentation
 ```
@@ -332,20 +356,63 @@ npm start
 
 ## 🌱 Future Scope
 - 📱 **Mobile Application** — React Native cross-platform app
-
 - 🌍 **Real-time Integration** — Live Swiggy/Zomato API integration
-
 - 📊 **Advanced Analytics** — Predictive analytics and trend forecasting
-
 - 🔐 **Enterprise Features** — Multi-restaurant dashboard and management
-
 - 🚀 **IoT Integration** — Kitchen sensor data for enhanced predictions
-
 - 🌐 **Global Expansion** — Multi-language and international market support
 
-  <br>
+<br>
 
-  ---  
+---
+
+## 🚀 Deployment
+
+### Frontend Deployment on Vercel
+
+**Quick Deploy:**
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone)
+
+**Manual Deployment:**
+
+1. **Push to GitHub**
+   ```bash
+   git add .
+   git commit -m "Deploy frontend to Vercel"
+   git push origin main
+   ```
+
+2. **Deploy on Vercel**
+   - Visit [vercel.com/new](https://vercel.com/new)
+   - Import your GitHub repository
+   - Configure:
+     - **Framework:** Create React App
+     - **Root Directory:** `frontend`
+     - **Build Command:** `npm run build`
+     - **Output Directory:** `build`
+   - Click **Deploy**
+
+3. **Environment Variables** (Optional)
+   - Add `REACT_APP_API_URL` with your backend URL
+
+**Vercel CLI:**
+```bash
+npm i -g vercel
+cd frontend
+vercel --prod
+```
+
+### Backend Deployment Options
+
+- **Render:** [render.com](https://render.com)
+- **Railway:** [railway.app](https://railway.app)
+- **Heroku:** [heroku.com](https://heroku.com)
+- **AWS EC2/Lambda:** For production scale
+
+<br>
+
+---  
 
 ## 📞 Help & Contact  
 
