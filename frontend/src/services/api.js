@@ -1,5 +1,5 @@
 // API configuration for Orderly backend
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://orderly-dev.onrender.com';
 
 // API endpoints
 export const API_ENDPOINTS = {
