@@ -137,7 +137,10 @@ Orderly – Smart Food Recommender/
 │   ├── 📂 utils/                   # 🛠️ Utility functions
 │   │   └── 📄 preprocess.py        # 🔄 Data preprocessing
 │   ├── 📄 app.py                   # 🚀 Flask application server
-│   └── 📄 requirements.txt         # 📦 Python dependencies
+│   ├── 📄 requirements.txt         # 📦 Python dependencies
+│   ├── 📄 render.yaml              # 🚀 Render deployment config
+│   ├── 📄 Procfile                 # 🔧 Process definition
+│   └── 📄 runtime.txt              # 🐍 Python version specification
 ├── 📂 docs/                        # 📸 Documentation assets
 │   ├── 📄 Loading_Page.png
 │   ├── 📄 Home_Page.png

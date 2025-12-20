@@ -518,5 +518,6 @@ if __name__ == '__main__':
     else:
         print("Warning: Model not available")
     
-    print("Starting server on http://localhost:8000")
-    app.run(debug=True, port=8000, host='0.0.0.0')
+    port = int(os.environ.get('PORT', 8000))
+    print(f"Starting server on port {port}")
+    app.run(debug=False, port=port, host='0.0.0.0')
