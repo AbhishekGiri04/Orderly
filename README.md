@@ -165,7 +165,7 @@ Orderly – Smart Food Recommender/
 
 | 📍 Page / Feature            | 📸 Screenshot                                              |
 |:----------------------------|:-----------------------------------------------------------|
-| Loading Screen              | ![Loading Screen](https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyNTIzdGhscW51cW8xOWNnMnZzdnBtNjA4bXA3NmlwaHN0b3kzZ3dkciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cmCHuk53AiTmOwBXlw/giphy.gif)        |
+| Loading Screen              | ![Loading Screen](docs/Loading_Page.png)        |
 | Home Page                   | ![Home Page](docs/Home_Page.png)                   |
 | Analytics Dashboard         | ![Dashboard](docs/Dashboard.png)          |
 | Performance Predictor       | ![ML Predictor](docs/Prediction_Page.png)    |
