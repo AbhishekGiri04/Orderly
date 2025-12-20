@@ -26,6 +26,21 @@ CORS(app)
 # Store prediction history in memory (in production, use a database)
 prediction_history = []
 
+@app.route('/', methods=['GET'])
+def home():
+    """API status endpoint"""
+    return jsonify({
+        'message': 'Orderly Backend API is running!',
+        'status': 'active',
+        'endpoints': {
+            'predict': '/predict',
+            'analyze': '/analyze', 
+            'recommendations': '/recommendations',
+            'customers': '/customers',
+            'feature-importance': '/feature-importance'
+        }
+    })
+
 # Load and prepare data
 def load_data():
     """Load and preprocess the dataset"""
