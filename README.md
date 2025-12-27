@@ -194,7 +194,7 @@ Orderly – Smart Food Recommender/
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/AbhishekGiri04/Orderly
 cd "Orderly – Smart Food Recommender"
 
 # Install Python dependencies
