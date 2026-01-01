@@ -439,42 +439,19 @@ vercel --prod
 **📧 Email:** abhishekgiri1978@gmail.com  
 **📍 Location:** Haridwar, Uttarakhand, India
 
-<br/>
-
----
-
-## 📞 Help & Contact  
-
-> 💬 *Got questions or need assistance with Orderly Smart Food Recommender?*  
-> We're here to help with integration and customization!
-
-<div align="center">
-
-<b>👤 Abhishek Giri</b>  
-<a href="https://www.linkedin.com/in/abhishek-giri04/">
-  <img src="https://img.shields.io/badge/Connect%20on-LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn - Abhishek Giri"/>
-</a>  
-<a href="https://github.com/abhishekgiri04">
-  <img src="https://img.shields.io/badge/Follow%20on-GitHub-black?style=for-the-badge&logo=github" alt="GitHub - Abhishek Giri"/>
-</a>  
-<a href="https://t.me/AbhishekGiri7">
-  <img src="https://img.shields.io/badge/Chat%20on-Telegram-blue?style=for-the-badge&logo=telegram" alt="Telegram - Abhishek Giri"/>
-</a>
-
-**📧 Email:** abhishekgiri1978@gmail.com  
-**📍 Location:** Haridwar, Uttarakhand, India
-
-<br/>
-
 </div>
 
 ---
+
+<div align="center">
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
+
+<div align="center">
 
 **🍽️ Built with ❤️ for Food Excellence**  
 *Transforming Food Delivery Through AI Innovation*
