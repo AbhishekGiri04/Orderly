@@ -337,7 +337,7 @@ function App() {
           </div>
           <div style={{ borderTop: '1px solid #333', marginTop: '40px', paddingTop: '24px', textAlign: 'center' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px' }}>
-              <p style={{ color: '#888', fontSize: '14px', margin: 0 }}>© 2025 <span style={{ color: '#ff5200', fontWeight: '600' }}>Orderly Technologies</span>. All rights reserved.</p>
+              <p style={{ color: '#888', fontSize: '14px', margin: 0 }}>© 2026 <span style={{ color: '#ff5200', fontWeight: '600' }}>Orderly Technologies</span>. All rights reserved.</p>
               <div style={{ display: 'flex', gap: '24px', fontSize: '14px' }}>
                 <button style={{ color: '#888', textDecoration: 'none', transition: 'color 0.2s', background: 'none', border: 'none', cursor: 'pointer' }} onMouseEnter={(e) => e.target.style.color = '#ff5200'} onMouseLeave={(e) => e.target.style.color = '#888'}>Privacy Policy</button>
                 <button style={{ color: '#888', textDecoration: 'none', transition: 'color 0.2s', background: 'none', border: 'none', cursor: 'pointer' }} onMouseEnter={(e) => e.target.style.color = '#ff5200'} onMouseLeave={(e) => e.target.style.color = '#888'}>Terms of Service</button>
