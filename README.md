@@ -462,6 +462,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**© 2025 Orderly Technologies. All Rights Reserved.**
+**© 2026 Orderly Technologies. All Rights Reserved.**
 
 </div>
